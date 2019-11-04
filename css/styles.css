@@ -301,7 +301,7 @@ body {
 
 #banner {
 
-    background-image: url("file:///Users/kate/Desktop/kate/images/background2.png");
+    background-image: url("../images/background2.png");
     color: #181845;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -786,7 +786,7 @@ body {
 
     #banner {
         height: 100%;
-        background-image: url("file:///Users/kate/Desktop/kate/images/bg-small.png");
+        background-image: url("../images/bg-small.png");
     }
 
     .container {
