@@ -19,10 +19,9 @@ $(document).ready(function() {
     }
     var startedNumbersAnimation = false;
     $(document).scroll(function(event){
-        var position = $('#animated-numbers').position().top - window.innerHeight;
-        console.log($(this).scrollTop(), $('#animated-numbers').position().top, window.innerHeight);
+        var position = $('#animated-year').position().top - window.innerHeight;
         if ($(this).scrollTop() >= position && !startedNumbersAnimation) {
-            startNumbersAnimation(1500);
+            startNumbersAnimation(2000);
             startedNumbersAnimation = true;
         }
     })
