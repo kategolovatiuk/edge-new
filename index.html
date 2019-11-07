@@ -4,9 +4,11 @@
     <title>Website template</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.animateNumber.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -101,17 +103,17 @@
             <h1 class='title-about'>Briefly about us</h1>
             <p class="description-about">Manage your business and impress your customers. Manage your business and impress your customers. Manage your business and impress your customers.</p>
             <div class="row">
-                <div class="numbers">
+                <div id="animated-numbers" class="numbers">
                     <div class="number-column">
-                        <p class="counter-count">2007</p>
+                        <p id="animated-year" class="counter-count">2007</p>
                         <p class="counter-des">Founded</p>
                     </div>
                     <div class="number-column">
-                        <p class="counter-count">100</p>
-                        <p class="counter-des">Employee</p>
+                        <p id="animated-employees" class="counter-count">100</p>
+                        <p class="counter-des">Employees</p>
                     </div>
                     <div class="number-column">
-                        <p class="counter-count">150+</p>
+                        <p id="animated-clients" class="counter-count">150+</p>
                         <p class="counter-des">Clients</p>
                     </div>
                 </div>
