@@ -1,5 +1,8 @@
 body {
-    font-family: sans-serif;
+
+
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -13,37 +16,10 @@ body {
     height: 200px;
 }
 
-
-
-.text-above {
-    display: block;
-    font-family: Mplus 1p;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12.6px;
-    line-height: 26px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #526BE3;
-
-}
-
-.text-above__expertise {
-    display: block;
-    text-align: center;
-    font-family: Mplus 1p;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12.6px;
-    line-height: 26px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #526BE3;
-
-}
-
 .services-title {
-    font-family: Lato;
+
+    font-weight: normal;
+    font-style: normal;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
@@ -55,7 +31,6 @@ body {
 }
 
 .services-title-social {
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
@@ -69,7 +44,6 @@ body {
 .description {
     padding-left: 100px;
     width: 630px;
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -81,7 +55,6 @@ body {
 
 .description-social {
     padding-left: 70px;
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -95,7 +68,6 @@ body {
 
 
 .description-about {
-    font-family: Lato;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -109,7 +81,7 @@ body {
 }
 
 .description-expertise {
-    font-family: Lato;
+ 
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -122,14 +94,16 @@ body {
 
 .btn-primary {
 
-    margin: 10px;
-    height: 45px;
-    color: #fff;
-    width: 197px;
-    border-radius: 36px;
-    color: #fff;
-    background-color: #526BE3;
+
+    height: 53px;
+    width: 205px;
+    background-color: #6D93F6;
+    font-weight: 100;
     border: unset;
+ 
+    border-radius: 0;
+    margin-left: 5px;
+
 }
 
 .btn-demo {
@@ -137,7 +111,6 @@ body {
     height: 45px;
     color: #fff;
     width: 197px;
-    border-radius: 36px;
     color: #fff;
     background-color: #526BE3;
     border: unset;
@@ -162,17 +135,8 @@ body {
 
 .btn-primary:hover {
 
-    background-color: #242383;
+    background: #5481F5;
     border: unset;
-}
-
-.btn-demo:hover {
-    background-color: #242383;
-    border: unset;
-    color: #fff;
-    border-style: none;
-    outline: 0;
-
 }
 
 .btn-demo:active {
@@ -191,36 +155,46 @@ body {
 }
 
 .button-line {
-    display: flex;
-    margin-top: 50px;
+    display: block;
+    margin-top: 30px;
 }
 
 .subtitle {
     color: white;
     margin-top: 1.3em;
     margin-bottom: 1rem;
-    margin-right: 30px;
-    font-family: Lato;
+    margin-left: 5px;
+    font-family: Roboto Slab;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+
+.line {
+    content: "";
+    position: absolute;
+    bottom: 92;
+    left: 16;
+    width: 100px;
+    height: 1px;
+    background-color: #4A98A8;
+}
+
+.footer {
+    display: flex;
+}
+
+.line-button {
+    display: flex;
 }
 
 .col-md-6 {
 
-    max-width: 60%;
+    max-width: 80%;
     flex: unset;
-}
-
-
-.text-above__about {
-    text-align: center;
-    font-family: Mplus 1p;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12.6px;
-    line-height: 26px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #526BE3;
-    padding-bottom: 20px;
 }
 
 #nav-bar {
@@ -230,12 +204,13 @@ body {
 }
 
 .container {
-    max-width: 1146px;
+    max-width: 1170px;
     height: 610px;
     position: relative;
     justify-content: center;
     margin: 0 auto;
     width: 100%;
+    min-height: 93%
 }
 
 .container__footer {
@@ -256,19 +231,25 @@ body {
 }
 
 .navbar {
-    /*background-image: linear-gradient(to right, #fedbd0, #fedbd0);*/
-    background-color: black;
-    /*padding: 0 !important;*/
+    padding: .5rem 2rem;
 
 }
+
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    font-weight: 400;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
 }
 
+
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #526BE3;
+    color: #4A98A8;
 }
 
 .navbar-light .navbar-brand {
@@ -301,26 +282,28 @@ body {
     outline: none !important;
 }
 
-/*------------------banner section------------*/
 
 #banner {
 
-    background-image: url("../images/background2.png");
+    background-image: url("../images/background-new.png");
     color: #181845;
-    padding-top: 5%;
     padding-bottom: 5%;
-    height: 92%;
+    height: 100%;
 
 }
 
 .promo-title {
     font-size: 40px;
-    font-weight: 600;
-    margin-top: 100px;
-    font-family: Lato;
+    font-weight: 800;
+    font-style: normal;
+    font-weight: bold;
     font-size: 72px;
-    line-height: 128%;
+    line-height: 118.8%;
+    letter-spacing: 3%;
+    font-size: 80px;
     color: white;
+    font-family: Roboto Slab;
+    padding-top: 150px;
 }
 
 .play-btn {
@@ -330,12 +313,9 @@ body {
 }
 
 #banner a {
-    color: #181845;
     text-decoration: none;
 }
 
-
-/*<!-------------services section--------------->*/
 
 #services {
 
@@ -392,7 +372,6 @@ body {
 }
 
 .title-about {
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
@@ -402,7 +381,6 @@ body {
 }
 
 .title-expertise {
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
@@ -423,7 +401,6 @@ body {
 
 
 }
-
 
 
 .title::before {
@@ -450,49 +427,7 @@ body {
     opacity: 1;
     -webkit-opacity: 1;
     -moz-opacity: 1;
-}
-
-
-/*-----------about us--------------*/
-
-#about-us {
-    background-color: #242383;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    /*margin: 50px 0;*/
-
-}
-
-.about-title {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 20%;
-}
-
-#about-us ul li {
-    margin: 10px 0;
-}
-
-#about-us ul {
-    margin-left: -20px;
-}
-
-.img-fluid {
-    max-width: 80%;
-    margin-left: 100px;
-}
-
-#about-us .img-fluid {
-
-    margin-top: 60px;
-    max-width: 58%
-}
-
-/*---------testimonials-------*/
-
-
-#testimonials {
-    margin: 100px 0;
+    border: unset;
 }
 
 #demo {
@@ -500,19 +435,6 @@ body {
 
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.testimonials {
-    border-left: 4px solid #442C2E;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.testimonials img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 0 10px;
 }
 
 .user-details {
@@ -537,9 +459,7 @@ body {
 #footer {
     background: #2D2D2D;
     left: 0px;
-    top: 5086px;
-    padding: 100px 0;
-
+    max-width: 1170px;
 }
 
 #social-media p {
@@ -711,20 +631,6 @@ body {
 
 }
 
-
-.review-position {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 32px;
-    color: #FFFFFF;
-    margin-bottom: 0;
-    opacity: 0.7;
-    margin-left: 70px;
-
-}
-
 .menu-footer {
     display: flex;
     width: 100%;
@@ -733,16 +639,6 @@ body {
 .logo-footer {
     flex: 2;
 
-}
-
-.navigation {
-    flex: 1;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 29px;
-    color: #FFFFFF;
 }
 
 .footer-links {
@@ -821,7 +717,7 @@ body {
     }
 
     .promo-title {
-        max-width: 60%;
+        max-width: 90%;
     }
 
     .services-text {
@@ -947,20 +843,78 @@ body {
 }
 
 
-@media (max-width: 522px) {
-
-    .container {
-        max-width: 350px;
-    }
-
-    .container__footer {
-        max-width: 350px;
-
-    }
-
-    .promo-title {
-        max-width: 80%;
-        font-size: 36px;
-    }
-
+.navbar-nav li {
+    padding: 0 20px;
 }
+
+.footer-nav {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    list-style: none;
+    color: #fff;
+    line-height: 10px;
+}
+
+.link-footer {
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    font-family: Roboto Slab;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-right: 90px;
+}
+
+.footer-menu:hover {
+    color: #4A98A8;
+}
+
+.footer-menu {
+    color: #fff;
+    font-family: Roboto Slab;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.copyright {
+
+    color: #fff;
+    font-family: Roboto Slab;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.collapse {
+	padding-top: 5px;
+}
+
+.navbar-brand{
+	margin-right: 2rem;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+    }
+
+ .navbar-brand img {
+
+ 	padding-left: 0;
+ }
+
+ .image {
+ 	margin-right: 20px;
+ }
